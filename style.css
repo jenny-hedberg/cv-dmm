@@ -1,0 +1,165 @@
+body {
+    color: lightpink;
+
+
+}
+
+header {
+    margin: auto;
+   
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/****** Header Styles ****/
+.homepage-hero {
+
+    background: url("/Users/jenny/Documents/dmm23g/Project1/Bilder/full-background.png"), #f9efef;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1 {
+    float: left;
+    width: 400px;
+    font-family: 'Lora', serif;
+    font-size: 60px;
+    color: #817f80;
+    padding: 55px 0 65px 25px;
+
+}
+
+header nav {
+    width: 500px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: hwb(122 18% 42%);
+    padding-left: 30px;
+}
+
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: hwb(187 29% 47%);
+    padding: 20px 0 20px 25px;
+
+}
+
+/***** om *****/
+#om .content-wrapper {
+    padding: 80px 0 80px 0;
+    background-color: beige;
+    color: black;
+
+}
+
+#om h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#om p {
+    float: left;
+    font-size: 22px;
+    width: 400px;
+    padding: 20px 30px;
+    margin-left: 150px;
+    border: double 5px blue;
+}
+
+/****** kunskap ****/
+#kunskap .content-wrapper {
+    padding: 80px 0 80px 0;
+    background-color: antiquewhite;
+}
+
+#kunskap h2 {
+    font-size: 36px;
+    color: green;
+    text-align: center;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+
+#kunskap p {
+    font-size: 30px;
+    color: rgb(23, 87, 87);
+    width: 400px;
+    float: left;
+    margin: 50px 150px;
+
+}
+
+#kunskap .projekt {
+    float: left;
+    width: 600px;
+
+}
+
+#kunskap #projekt-bild {
+    width: 500px;
+    height: 300px;
+    border: 12px solid yellowgreen;
+    margin: 0 50px;
+    box-sizing: border-box;
+}
+
+
+/***** Kontaka *****/
+#kontakt {
+    background-color: #f9e9e9;
+    border: dotted 5px red;
+}
+#kontakt .content-wrapper {
+    height: 400px;
+}
+#kontakt h3{
+    font-size: 36px;
+    text-align: center;
+    color: red;
+}
+#kontakt p {
+    float: left;
+    font-size: 28px;
+    color: #e41ee4;
+    text-align: center;
+    border: dotted 15px salmon;
+    width: 300px;
+    margin: 0 150px;
+    padding: 20px;
+}
+#kontakt .mail {
+    float: left;
+    height: 40px;
+    padding: 30px 50px;
+    margin: 0;
+}
+
+#kontakt a {
+    text-decoration: none;
+    color: #5e5d5e;
+    font-size: 28px;
+     border: dotted 15px salmon;
+     padding: 20px;
+     margin: 0 70px 0 70px;
+}
+
